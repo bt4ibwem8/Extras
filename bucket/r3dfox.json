@@ -1,38 +1,27 @@
 {
-    "version": "136.0.4",
+    "version": "139.0.3",
     "description": "A modern Firefox-based web browser for Windows 7.",
     "homepage": "https://eclipse.cx/projects/r3dfox",
-    "license": "Unknown",
+    "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Eclipse-Community/r3dfox/releases/download/v136.0.4/r3dfox-136.0.4.en-US.win64.portable.7z",
-            "hash": "C32A9E9D6881B6A9DAC0B69819228563D0F054A666173DBDF5D4ED006D10D259",
-            "bin": "r3dfox.exe",
-            "shortcuts": [
-                [
-                    "r3dfox.exe",
-                    "r3dfox"
-                ]
-            ]
+            "url": "https://github.com/Eclipse-Community/r3dfox/releases/download/v139.0.3/r3dfox-139.0.3.en-US.win64.portable.7z",
+            "hash": "2e633ba54858cc28126d0e64598e42fa41e3c204f8fd16815dbc315042dc7175"
         },
         "32bit": {
-            "url": "https://github.com/Eclipse-Community/r3dfox/releases/download/v136.0.4/r3dfox-136.0.4.en-US.win32.portable.7z",
-            "hash": "41ECCE8A19A97BBAD63970880F1CD7969BD7C8C329A3EB2EBE219C0E603118AF",
-            "bin": "r3dfox.exe",
-            "shortcuts": [
-                [
-                    "r3dfox.exe",
-                    "r3dfox"
-                ]
-            ]
+            "url": "https://github.com/Eclipse-Community/r3dfox/releases/download/v139.0.3/r3dfox-139.0.3.en-US.win32.portable.7z",
+            "hash": "18ddeb3ed98438fcdeee4f3fdee264cc3ce0c67d42bea16c8fd044bf2eb6893e"
         }
     },
-    "persist": [
-        "Profile"
+    "bin": "r3dfox.exe",
+    "shortcuts": [
+        [
+            "r3dfox.exe",
+            "r3dfox"
+        ]
     ],
-    "checkver": {
-        "github": "https://github.com/Eclipse-Community/r3dfox"
-    },
+    "persist": "Profile",
+    "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
